@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  /* Energetic theme tokens (V1 — only theme shipped). */
+  --color-primary: #EA580B;
+  --color-accent: #F59E0B;
+  --color-surface: #FFEDD5;
+  --color-surface-2: #FED7AA;
+
+  /* Font stacks — display loaded via next/font, fall back gracefully. */
+  --font-sans: var(--font-inter, system-ui, -apple-system, sans-serif);
+  --font-display: var(--font-display, var(--font-inter), system-ui, sans-serif);
+}
+
+@utility font-display {
+  font-family: var(--font-display);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #111827;
+  background: #ffffff;
+}
+
+:target {
+  scroll-margin-top: 4.5rem;
+}

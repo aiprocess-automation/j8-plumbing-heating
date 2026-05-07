@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "archetype": "trades",
+    "title": "Hillcrest Plumbing & Heating",
+    "description": "Vancouver's original plumbing and heating service for over 60 years. 24/7 emergency plumbing across Greater Vancouver.",
+    "locale": "en"
+  },
+  "business": {
+    "name": "Hillcrest Plumbing & Heating",
+    "tagline": "Vancouver's original plumbing & heating since the 1960s.",
+    "phone": "+1-604-879-5301",
+    "email": "",
+    "ownerEmail": "",
+    "schemaType": "Plumber",
+    "priceRange": "$$",
+    "address": {
+      "street": "3260 Main Street",
+      "city": "Vancouver",
+      "region": "BC",
+      "postal": "V5V 3M5",
+      "country": "CA",
+      "lat": 49.2481,
+      "lng": -123.1013
+    },
+    "hours": [
+      { "day": "Monday – Sunday", "open": "Open 24 Hours", "close": "" }
+    ],
+    "socials": {}
+  },
+  "theme": "energetic",
+  "sections": [
+    {
+      "type": "hero",
+      "variant": "phone-prominent",
+      "data": {
+        "eyebrow": "VANCOUVER PLUMBER",
+        "headline": "Burst pipe? Boiler down? We answer the phone.",
+        "subhead": "Family-owned plumbing and heating service in Vancouver for over 60 years. Same-day work across Greater Vancouver.",
+        "trustItems": ["Licensed & Insured", "24/7 Emergency Service", "60+ Years Experience"],
+        "primaryCta": { "label": "Call (604) 879-5301", "action": "tel", "target": "+16048795301" },
+        "secondaryCta": { "label": "Get a Free Quote", "action": "scroll", "target": "contact" }
+      }
+    },
+    {
+      "type": "stats",
+      "data": {
+        "items": [
+          { "value": "60+", "label": "Years in business" },
+          { "value": "24/7", "label": "Emergency response" },
+          { "value": "4.8★", "label": "Google rating" },
+          { "value": "10k+", "label": "Jobs completed" }
+        ]
+      }
+    },
+    {
+      "type": "services",
+      "variant": "grid-3",
+      "data": {
+        "eyebrow": "WHAT WE FIX",
+        "headline": "Plumbing and heating, done right.",
+        "items": [
+          {
+            "id": "plumbing-repairs",
+            "icon": "Wrench",
+            "title": "Plumbing Repairs",
+            "description": "Leaks, burst pipes, fixtures, and everything that drips, floods, or refuses to drain."
+          },
+          {
+            "id": "water-heaters",
+            "icon": "Flame",
+            "title": "Water Heaters",
+            "description": "Install, repair, and replace tank and tankless water heaters from every major brand."
+          },
+          {
+            "id": "drain-sewer",
+            "icon": "Waves",
+            "title": "Drain & Sewer",
+            "description": "Camera inspections, hydro jetting, and full drain replacements for stubborn blockages."
+          }
+        ]
+      }
+    },
+    {
+      "type": "reviews",
+      "variant": "testimonial-stack",
+      "data": {
+        "eyebrow": "WHAT NEIGHBOURS SAY",
+        "headline": "Real reviews, from real Vancouver customers.",
+        "items": [
+          {
+            "id": "r1",
+            "author": "Sarah M.",
+            "rating": 5,
+            "date": "2025-10-12",
+            "text": "Called at 2am for a burst pipe and they were at my door within 45 minutes. Professional, quick, and fair pricing.",
+            "source": "google"
+          },
+          {
+            "id": "r2",
+            "author": "James K.",
+            "rating": 5,
+            "date": "2025-09-03",
+            "text": "Hillcrest replaced our water heater the same day we called. The whole team was easy to deal with.",
+            "source": "google"
+          },
+          {
+            "id": "r3",
+            "author": "Patricia L.",
+            "rating": 5,
+            "date": "2025-08-18",
+            "text": "60+ years in the neighbourhood for a reason. They actually pick up the phone — that alone is rare.",
+            "source": "google"
+          }
+        ]
+      }
+    },
+    {
+      "type": "about",
+      "variant": "narrative-with-badges",
+      "data": {
+        "eyebrow": "WHY HILLCREST",
+        "headline": "Family-owned, since the 1960s.",
+        "narrative": "Hillcrest Plumbing & Heating has been Vancouver's trusted plumber and heating specialist since the 1960s. We've built our reputation one job at a time — showing up on time, pricing fairly, and doing the work right. From Main Street to the North Shore, we serve the entire Greater Vancouver area, 24 hours a day, every day of the year.",
+        "badges": [
+          { "label": "60+ Years in Business", "icon": "Award" },
+          { "label": "Licensed & Insured", "icon": "ShieldCheck" },
+          { "label": "Family Owned", "icon": "Heart" }
+        ]
+      }
+    },
+    {
+      "type": "cta-banner",
+      "data": {
+        "headline": "Got a leak that won't wait?",
+        "subhead": "We answer 24 hours a day. Most calls dispatched within the hour.",
+        "primaryCta": { "label": "Call (604) 879-5301", "action": "tel", "target": "+16048795301" }
+      }
+    },
+    {
+      "type": "contact-hours",
+      "data": {
+        "headline": "Find us, or just call.",
+        "showHoursTable": true,
+        "showContactForm": true
+      }
+    }
+  ]
+}
