@@ -20,7 +20,7 @@
       "postal": "V6V 1L4",
       "country": "CA",
       "lat": 49.2018744,
-      "lng": -123.06233789999999
+      "lng": -123.0623379
     },
     "hours": [
       {
@@ -67,7 +67,7 @@
       "type": "hero",
       "variant": "phone-prominent",
       "data": {
-        "eyebrow": "RICHMOND PLUMBING & HEATING",
+        "eyebrow": "RICHMOND PLUMBING",
         "headline": "40 Years Combined Experience. Emergency Service Available.",
         "subhead": "Family-owned plumbing and heating—boilers, furnaces, hot water tanks, drain cleaning, backflow testing.",
         "trustItems": [
