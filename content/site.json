@@ -1,29 +1,63 @@
 {
   "meta": {
     "archetype": "trades",
-    "title": "Hillcrest Plumbing & Heating",
-    "description": "Vancouver's original plumbing and heating service for over 60 years. 24/7 emergency plumbing across Greater Vancouver.",
+    "title": "J8 Plumbing & Heating",
+    "description": "J8 Plumbing & Heating — Richmond, BC",
     "locale": "en"
   },
   "business": {
-    "name": "Hillcrest Plumbing & Heating",
-    "tagline": "Vancouver's original plumbing & heating since the 1960s.",
-    "phone": "+1-604-879-5301",
+    "name": "J8 Plumbing & Heating",
+    "tagline": "J8 Plumbing & Heating",
+    "phone": "(778) 957-5874",
     "email": "",
-    "ownerEmail": "",
+    "ownerEmail": "tobystapleton95@gmail.com",
     "schemaType": "Plumber",
     "priceRange": "$$",
     "address": {
-      "street": "3260 Main Street",
-      "city": "Vancouver",
+      "street": "1301 Valmont Way",
+      "city": "Richmond",
       "region": "BC",
-      "postal": "V5V 3M5",
+      "postal": "V6V 1L4",
       "country": "CA",
-      "lat": 49.2481,
-      "lng": -123.1013
+      "lat": 49.2018744,
+      "lng": -123.06233789999999
     },
     "hours": [
-      { "day": "Monday – Sunday", "open": "Open 24 Hours", "close": "" }
+      {
+        "day": "Monday",
+        "open": "8:00 AM",
+        "close": "4:30 PM"
+      },
+      {
+        "day": "Tuesday",
+        "open": "8:00 AM",
+        "close": "4:30 PM"
+      },
+      {
+        "day": "Wednesday",
+        "open": "8:00 AM",
+        "close": "4:30 PM"
+      },
+      {
+        "day": "Thursday",
+        "open": "8:00 AM",
+        "close": "4:30 PM"
+      },
+      {
+        "day": "Friday",
+        "open": "8:00 AM",
+        "close": "4:30 PM"
+      },
+      {
+        "day": "Saturday",
+        "open": "Closed",
+        "close": ""
+      },
+      {
+        "day": "Sunday",
+        "open": "Closed",
+        "close": ""
+      }
     ],
     "socials": {}
   },
@@ -33,22 +67,49 @@
       "type": "hero",
       "variant": "phone-prominent",
       "data": {
-        "eyebrow": "VANCOUVER PLUMBER",
-        "headline": "Burst pipe? Boiler down? We answer the phone.",
-        "subhead": "Family-owned plumbing and heating service in Vancouver for over 60 years. Same-day work across Greater Vancouver.",
-        "trustItems": ["Licensed & Insured", "24/7 Emergency Service", "60+ Years Experience"],
-        "primaryCta": { "label": "Call (604) 879-5301", "action": "tel", "target": "+16048795301" },
-        "secondaryCta": { "label": "Get a Free Quote", "action": "scroll", "target": "contact" }
+        "eyebrow": "RICHMOND PLUMBING & HEATING",
+        "headline": "40 Years Combined Experience. Emergency Service Available.",
+        "subhead": "Family-owned plumbing and heating—boilers, furnaces, hot water tanks, drain cleaning, backflow testing.",
+        "trustItems": [
+          "Technical Safety BC Certified",
+          "Same-Day Service",
+          "3.9★ Rating · 45 Reviews",
+          "Serving Richmond & Area"
+        ],
+        "primaryCta": {
+          "label": "Call Now",
+          "action": "tel",
+          "target": "(778) 957-5874"
+        },
+        "secondaryCta": {
+          "label": "View Services",
+          "action": "scroll",
+          "target": "#services"
+        }
       }
     },
     {
       "type": "stats",
       "data": {
+        "eyebrow": "PROVEN TRACK RECORD",
+        "headline": "Experience You Can Trust",
         "items": [
-          { "value": "60+", "label": "Years in business" },
-          { "value": "24/7", "label": "Emergency response" },
-          { "value": "4.8★", "label": "Google rating" },
-          { "value": "10k+", "label": "Jobs completed" }
+          {
+            "value": "40",
+            "label": "Years Combined Experience"
+          },
+          {
+            "value": "3.9★",
+            "label": "Google Rating"
+          },
+          {
+            "value": "45",
+            "label": "Customer Reviews"
+          },
+          {
+            "value": "Same-Day",
+            "label": "Service Available"
+          }
         ]
       }
     },
@@ -56,60 +117,44 @@
       "type": "services",
       "variant": "grid-3",
       "data": {
-        "eyebrow": "WHAT WE FIX",
-        "headline": "Plumbing and heating, done right.",
+        "eyebrow": "SERVICES",
+        "headline": "Plumbing & Heating Solutions",
         "items": [
           {
-            "id": "plumbing-repairs",
-            "icon": "Wrench",
-            "title": "Plumbing Repairs",
-            "description": "Leaks, burst pipes, fixtures, and everything that drips, floods, or refuses to drain."
-          },
-          {
-            "id": "water-heaters",
+            "id": "boiler-furnace",
             "icon": "Flame",
-            "title": "Water Heaters",
-            "description": "Install, repair, and replace tank and tankless water heaters from every major brand."
+            "title": "Boiler & Furnace Service",
+            "description": "System won't heat? We install, repair and service all makes of boilers and furnaces for Richmond homes."
           },
           {
-            "id": "drain-sewer",
-            "icon": "Waves",
-            "title": "Drain & Sewer",
-            "description": "Camera inspections, hydro jetting, and full drain replacements for stubborn blockages."
-          }
-        ]
-      }
-    },
-    {
-      "type": "reviews",
-      "variant": "testimonial-stack",
-      "data": {
-        "eyebrow": "WHAT NEIGHBOURS SAY",
-        "headline": "Real reviews, from real Vancouver customers.",
-        "items": [
-          {
-            "id": "r1",
-            "author": "Sarah M.",
-            "rating": 5,
-            "date": "2025-10-12",
-            "text": "Called at 2am for a burst pipe and they were at my door within 45 minutes. Professional, quick, and fair pricing.",
-            "source": "google"
+            "id": "hot-water-tanks",
+            "icon": "Droplet",
+            "title": "Hot Water Tank Replacement",
+            "description": "No hot water or leaking tank? Fast replacement and installation—same-day service when you need it most."
           },
           {
-            "id": "r2",
-            "author": "James K.",
-            "rating": 5,
-            "date": "2025-09-03",
-            "text": "Hillcrest replaced our water heater the same day we called. The whole team was easy to deal with.",
-            "source": "google"
+            "id": "drain-cleaning",
+            "icon": "Wind",
+            "title": "Drain Cleaning",
+            "description": "Slow drain or backup? Camera inspection and line location to clear clogs and diagnose the root cause."
           },
           {
-            "id": "r3",
-            "author": "Patricia L.",
-            "rating": 5,
-            "date": "2025-08-18",
-            "text": "60+ years in the neighbourhood for a reason. They actually pick up the phone — that alone is rare.",
-            "source": "google"
+            "id": "backflow-testing",
+            "icon": "Shield",
+            "title": "Backflow Testing",
+            "description": "Required annual testing? Certified technicians handle all backflow prevention device inspections and compliance reporting."
+          },
+          {
+            "id": "gas-fitting",
+            "icon": "Wrench",
+            "title": "Gas Fitting & BBQ Box",
+            "description": "Need gas line work or BBQ hookup? Fully licensed gas fitters handle installation and service safely."
+          },
+          {
+            "id": "camera-inspection",
+            "icon": "Camera",
+            "title": "Camera Inspection & Excavation",
+            "description": "Hidden line problem? Video inspection pinpoints issues—excavation only when necessary, saving you time and money."
           }
         ]
       }
@@ -118,30 +163,100 @@
       "type": "about",
       "variant": "narrative-with-badges",
       "data": {
-        "eyebrow": "WHY HILLCREST",
-        "headline": "Family-owned, since the 1960s.",
-        "narrative": "Hillcrest Plumbing & Heating has been Vancouver's trusted plumber and heating specialist since the 1960s. We've built our reputation one job at a time — showing up on time, pricing fairly, and doing the work right. From Main Street to the North Shore, we serve the entire Greater Vancouver area, 24 hours a day, every day of the year.",
+        "eyebrow": "ABOUT J8",
+        "headline": "Family-Owned Richmond Business",
+        "narrative": "J8 Plumbing & Heating is a locally owned family operation serving Richmond and the surrounding areas. With over 40 years of combined experience in plumbing, heating, and gas fitting, our fully certified technicians deliver quality workmanship on every job. We're committed to providing our community with honest service, transparent pricing, and reliable solutions—whether it's an emergency furnace breakdown or routine backflow testing. Technical Safety BC certified, we handle residential and commercial projects with the same hands-on attention to detail.",
         "badges": [
-          { "label": "60+ Years in Business", "icon": "Award" },
-          { "label": "Licensed & Insured", "icon": "ShieldCheck" },
-          { "label": "Family Owned", "icon": "Heart" }
+          {
+            "label": "Technical Safety BC · LBP0211131",
+            "icon": "Award"
+          },
+          {
+            "label": "Technical Safety BC · LGA0206497",
+            "icon": "BadgeCheck"
+          },
+          {
+            "label": "40 Years Combined Experience",
+            "icon": "Clock"
+          },
+          {
+            "label": "Family Owned & Operated",
+            "icon": "Home"
+          }
+        ],
+        "image": {
+          "src": "/images/gallery-1.jpg",
+          "alt": "J8 Plumbing & Heating technician working on plumbing system in Richmond"
+        }
+      }
+    },
+    {
+      "type": "reviews",
+      "variant": "testimonial-stack",
+      "data": {
+        "eyebrow": "REVIEWS",
+        "headline": "What Richmond Customers Say",
+        "items": [
+          {
+            "id": "r1",
+            "author": "A R",
+            "rating": 5,
+            "date": "2026-02-24",
+            "text": "J8 Plumbing are exceptional to work with! Honest, efficient & in general good-vibe type of people. I found JJ through our strata property manager. He was highly recommend based on some work he has done in our office building. I cannot express how happy & relieved I was after his visit. All his recommendations were spot on. He listened. I felt like I could trust him right away & that I wasn't getting the typical contractor run-around. Also their team dispatcher Jen is very efficient & responsive. I would hire them again in a heartbeat - 10/10!!!!",
+            "source": "google"
+          },
+          {
+            "id": "r4",
+            "author": "Maryann Wadge",
+            "rating": 5,
+            "date": "2025-06-07",
+            "text": "J8 Plumbing is an excellent company.  Have dealt with them in our condo for quite a few years and have never had a negative experience.  They are prompt, reliable, courteous and service oriented.  The office staff is excellent and JJ the owner is hands on and never disappoints.  If you are looking for professional, timely, excellent service then J8 is the company you need.  Cannot say enough about their service.  All I can say is thankyou!",
+            "source": "google"
+          },
+          {
+            "id": "r3",
+            "author": "HTROP Holy Trinity Romanian",
+            "rating": 5,
+            "date": "2024-12-23",
+            "text": "We're incredibly grateful to J8 Plumbing and Heating for their exceptional HVAC work on our new church hall and apartment unit in Oct-Nov 2024. Not only did they deliver top-notch quality and meet the deadline, but they also made a generous donation and provided a discount, helping us save funds to advance our community hall project. It's inspiring to see a business so committed to giving back to the community. Thank you, J8, and we wish you a Merry Christmas and a Happy New Year!\n- Holy Trinity Romanian Orthodox Parish, New Westminster, BC",
+            "source": "google"
+          },
+          {
+            "id": "r5",
+            "author": "Emily T",
+            "rating": 5,
+            "date": "2020-11-05",
+            "text": "J8 Plumbing was professional and easy to book, all the staff I spoke to were very friendly. They had a couple of emergencies (which is completely understandable), and needed to push the appointment back, they still managed to come that day and fix the issues quickly for a great price.\n\nI will be using them again in the future, and would recommend them.",
+            "source": "google"
+          }
         ]
       }
     },
     {
       "type": "cta-banner",
       "data": {
-        "headline": "Got a leak that won't wait?",
-        "subhead": "We answer 24 hours a day. Most calls dispatched within the hour.",
-        "primaryCta": { "label": "Call (604) 879-5301", "action": "tel", "target": "+16048795301" }
+        "headline": "Plumbing Emergency? Furnace Breakdown?",
+        "subhead": "Call now for same-day service in Richmond—40 years of experience handling urgent repairs.",
+        "primaryCta": {
+          "label": "Call (778) 957-5874",
+          "action": "tel",
+          "target": "(778) 957-5874"
+        },
+        "secondaryCta": {
+          "label": "Email Us",
+          "action": "external",
+          "target": "mailto:service@j8ph.ca"
+        }
       }
     },
     {
       "type": "contact-hours",
       "data": {
-        "headline": "Find us, or just call.",
+        "eyebrow": "GET IN TOUCH",
+        "headline": "Visit or Call Us Today",
         "showHoursTable": true,
-        "showContactForm": true
+        "showContactForm": true,
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2608.123456789!2d-123.13!3d49.16!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDA5JzM2LjAiTiAxMjPCsDA3JzQ4LjAiVw!5e0!3m2!1sen!2sca!4v1234567890"
       }
     }
   ]
